@@ -11,10 +11,10 @@ skopeo copy docker://ghcr.io/home-assistant/home-assistant:stable docker://regis
 skopeo copy docker://ghcr.io/music-assistant/server:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/server:latest
 
 - **nodered/node-red**
-skopeo copy docker://ghcr.io/nodered/node-red:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/node-red:latest
+skopeo copy docker://docker.io/nodered/node-red:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/node-red:latest
 
 - **emqx/emqx**
-skopeo copy docker://ghcr.io/emqx/emqx:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/emqx:latest
+skopeo copy docker://docker.io/emqx/emqx:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/emqx:latest
 
 
 
