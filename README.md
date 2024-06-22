@@ -29,6 +29,14 @@ skopeo copy docker://docker.io/emqx/emqx:latest docker://registry.cn-hangzhou.al
 - **docker.io/gitea/gitea:latest**
   skopeo copy docker://docker.io/gitea/gitea:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/gitea:latest
 
+
+
+## Other
+
+- **lmscommunity/logitechmediaserver:latest**
+
+skopeo copy docker://docker.io/lmscommunity/logitechmediaserver:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/logitechmediaserver:latest
+
 ```bash
 vi ./github/workflows/Sync.yml
 ```
