@@ -27,12 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/rustdesk/rustdesk-serve:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/rustdesk-serve:latest
-         skopeo copy docker://docker.io/neosmemo/memos:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/memos:latest
-         skopeo copy docker://docker.io/talebook/talebook:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/talebook:latest
-         skopeo copy docker://docker.io/xhongc/music_tag_web:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/music_tag_web:latest
-         skopeo copy docker://docker.io/xiaoyaliu/alist:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/alist:latest
-         skopeo copy docker://docker.io/xhofe/alist:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/alist:latest
+         skopeo copy docker://docker.getoutline.com/outlinewiki/outline:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/outline:latest
 
 
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
