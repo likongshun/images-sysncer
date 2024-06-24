@@ -27,10 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://postgres:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/postgres:latest
-         skopeo copy docker://redis:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/redis:latest
-         skopeo copy docker://redis:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/redis:latest
-         skopeo copy docker://steveltn/https-portal:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/https-portal:latest
+         skopeo copy docker://minio/minio:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/minio:latest
 
 
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
