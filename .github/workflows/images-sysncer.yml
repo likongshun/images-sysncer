@@ -27,8 +27,6 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://postgres:15.2-alpine3.17 docker://registry.cn-hangzhou.aliyuncs.com/likongshun/postgres:15.2-alpine3.17
-         skopeo copy docker://outlinewiki/outline:0.72.0-3 docker://registry.cn-hangzhou.aliyuncs.com/likongshun/outline:0.72.0-3
-
+         skopeo copy docker://ubuntu:latest docker://registry.cn-hangzhou.aliyuncs.com/likongshun/ubuntu:latest
 
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
