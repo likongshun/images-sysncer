@@ -1,6 +1,4 @@
-# Github Action images-sysncer
-
-https://cr.console.aliyun.com/cn-hangzhou/instances
+# Github Action docker_install
 
 
 
